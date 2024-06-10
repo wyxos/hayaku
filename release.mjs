@@ -33,7 +33,7 @@ const execSyncOut = (command) => {
 execSyncOut("npm run lint");
 
 // Build the project
-execSyncOut("npm run build");
+// execSyncOut("npm run build");
 
 // Check for changes
 const status = await git.status();
@@ -44,7 +44,7 @@ if (status.modified.length > 0) {
 }
 
 // Build the project
-execSyncOut("npm run build");
+// execSyncOut("npm run build");
 
 // Update the version
 execSyncOut(`npm version ${version} -m "${commitMessage}"`);
