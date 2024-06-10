@@ -55,7 +55,7 @@ const commitFiles = async () => {
 };
 
 const pushChanges = async () => {
-  await git.push("origin", "main");
+  await git.push("origin", "master");
   await git.pushTags("origin");
 };
 
