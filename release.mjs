@@ -30,7 +30,7 @@ const execSyncOut = (command) => {
 };
 
 // Run linting
-execSyncOut("npm run lint");
+// execSyncOut("npm run lint");
 
 // Build the project
 // execSyncOut("npm run build");
